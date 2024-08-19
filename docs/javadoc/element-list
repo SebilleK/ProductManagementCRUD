@@ -1,0 +1,5 @@
+com.sebillek.products
+com.sebillek.products.controller
+com.sebillek.products.entity
+com.sebillek.products.repository
+com.sebillek.products.service

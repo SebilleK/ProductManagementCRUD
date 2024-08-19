@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.sebillek.products"},{"l":"com.sebillek.products.controller"},{"l":"com.sebillek.products.entity"},{"l":"com.sebillek.products.repository"},{"l":"com.sebillek.products.service"}];updateSearchResults();
