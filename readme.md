@@ -2,11 +2,13 @@
 
 ## Introduction
 
-### Java, Spring Boot + MySQL
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-WIP
 
-This is a simple products management REST API. (Frontend TBA)
+This is a simple products management CRUD App. Check out the implemented **REST API endpoints** below. The React frontend
+is served from the **resources/static** directory.
 
 
 ## Setup
@@ -63,5 +65,5 @@ Generated Javadoc included in **docs/javadoc**.
 
 TO DO:
 
-- Add Frontend (1) - (enable cors)
-- Dockerization (2)
+- Add functionality to frontend
+- Dockerize app
