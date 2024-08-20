@@ -15,7 +15,7 @@ public class ProductController {
     private ProductService service;
 
     /* Welcome endpoint */
-    @GetMapping
+    @GetMapping("/info")
     public String welcomeMessage() {
         return "Welcome to the Products Management API. Everything seems to be working =)";
     }
