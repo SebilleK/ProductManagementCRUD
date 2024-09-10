@@ -10,6 +10,8 @@
 This is a simple products management CRUD App. Check out the implemented **REST API endpoints** below. The React frontend
 is served from the **resources/static** directory.
 
+![example](examples/example.gif)
+
 ## Setup
 
 1. **Clone** this repository
@@ -75,6 +77,10 @@ registry.addMapping("/**") // Enabling CORS for the whole App
 // (...)
 ```
 
+
+### Notes
+
+For placeholder pictures: https://picsum.photos/
 
 --- 
 

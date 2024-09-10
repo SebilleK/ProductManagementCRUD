@@ -15,7 +15,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings (CorsRegistry registry) {
                 registry.addMapping("/**") // Enabling CORS for the whole App
-                        // .allowedOrigins("http://localhost:####") // Change port as/if needed for Frontend...
+                        .allowedOrigins("http://localhost:8080") // Change port as/if needed for Frontend...
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
