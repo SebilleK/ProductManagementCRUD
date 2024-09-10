@@ -10,7 +10,6 @@
 This is a simple products management CRUD App. Check out the implemented **REST API endpoints** below. The React frontend
 is served from the **resources/static** directory.
 
-
 ## Setup
 
 1. **Clone** this repository
@@ -61,9 +60,25 @@ Generated Javadoc included in **docs/javadoc**.
 
 /product/delete/{id} - deletes a product by id
 
+
+### Enabling CORS
+
+If needed, check CorsConfig.java for changing CORS configurations such as allowed origins.
+
+```bash
+// (...)
+registry.addMapping("/**") // Enabling CORS for the whole App
+                        // .allowedOrigins("http://localhost:####") // Change port as/if needed for Frontend...
+                        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+                        .allowedHeaders("*")
+                        .allowCredentials(true);
+// (...)
+```
+
+
 --- 
 
 TO DO:
 
-- Add functionality to frontend
-- Dockerize app
+- Some Frontend polishing
+- Dockerization 
